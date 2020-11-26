@@ -2,7 +2,7 @@ package condition;
 
 public class TrgArea {
         public static double area(double a, double b, double c) {
-            double p = (a+b+c) / 2;
+            double p = (a + b + c) / 2;
             double f = p * (p - a) * (p - b) * (p - c);
             double rsl = Math.sqrt(f);
             return rsl;

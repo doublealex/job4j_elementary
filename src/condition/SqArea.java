@@ -3,8 +3,8 @@ package condition;
 public class SqArea {
     public static double square(int p, int k) {
         int h = p / (2 * (k + 1));
-        double L = h * k;
-        double rsl = L * h;
+        double l = h * k;
+        double rsl = l * h;
         return rsl;
     }
 
