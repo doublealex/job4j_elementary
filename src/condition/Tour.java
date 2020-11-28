@@ -4,7 +4,7 @@ public class Tour {
     public static void offer(boolean passport) {
         System.out.println("A client has foreign password : " + passport);
         if (passport) {
-            System.out.println("Tours aboard.");
+            System.out.println("Tours abroad.");
         } else {
             System.out.println("Tours in Russia.");
         }
