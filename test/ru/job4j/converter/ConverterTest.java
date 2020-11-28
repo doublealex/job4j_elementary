@@ -9,7 +9,7 @@ public class ConverterTest {
     public void whenConvert0() {
         int in = 0;
         int expected = 0;
-        int out = in;
+        int out = Converter.rubleToEuro(in);
         Assert.assertEquals(expected, out);
     }
 
