@@ -28,4 +28,10 @@ public class MultiMaxTest {
         int result = MultiMax.max(4, 4, 4);
         assertThat(result, is(4));
     }
+
+    @Test
+    public void whenTwoMaxEquals() {
+        int result = MultiMax.max(10, 10, 5);
+        assertThat(result, is(10));
+    }
 }
