@@ -11,7 +11,7 @@ public class Machine {
         int moneyBack = money - price;
 
         for (int i = 0; i < coins.length; i++) {
-            while (moneyBack >= coins[i] && moneyBack > 0) {
+            while (moneyBack >= coins[i]) {
                 rsl[size] = coins[i];
                 size++;
                 moneyBack -= coins[i];
