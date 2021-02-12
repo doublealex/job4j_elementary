@@ -5,7 +5,6 @@ public class Merge {
         int[] rsl = new int[left.length + right.length];
         int a = 0;
         int b = 0;
-
         for (int i = 0; i < rsl.length; i++) {
             if (a > left.length - 1) {
                 rsl[i] = right[b];
