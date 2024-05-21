@@ -20,4 +20,36 @@ public class FitTest {
         double out = Fit.womanWeight(in);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void whenManHeight187ThenWeight10005() {
+        short heightMan = 187;
+        double expected = 100.05;
+        double actual = Fit.manWeight(heightMan);
+        Assert.assertEquals(expected, actual, 0.01);
+    }
+
+    @Test
+    public void whenWomanHeight170ThenWeight69() {
+        short heightWoman = 170;
+        double expected = 69.0;
+        double actual = Fit.womanWeight(heightWoman);
+        Assert.assertEquals(expected, actual, 0.01);
+    }
+
+    @Test
+    public void whenManHeight160ThenWeight69() {
+        short heightMan = 160;
+        double expected = 69.0;
+        double actual = Fit.manWeight(heightMan);
+        Assert.assertEquals(expected, actual, 0.01);
+    }
+
+    @Test
+    public void whenWomanHeight150ThenWeight46() {
+        short heightWoman = 150;
+        double expected = 46.0;
+        double actual = Fit.womanWeight(heightWoman);
+        Assert.assertEquals(expected, actual, 0.01);
+    }
 }
